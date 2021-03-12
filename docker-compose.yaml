@@ -1,0 +1,48 @@
+version: '3.7'
+services:
+
+    # Start RediSearch and import data/indexes
+    redisearch:
+        build:
+            context: ./redisearch-docker
+            dockerfile: Dockerfile
+        ports:
+            # using 6380 as public port to avoid conflict with local process
+            - "6380:6379"
+        networks:
+            - redisearch-gettingstarted
+        restart: always
+
+    rest-node:
+        build:
+            context: ./redisearch-node-rest
+            dockerfile: Dockerfile
+        ports:
+            - "8086:8086"
+        environment:
+            - REDIS_URL=redis://redisearch:6379
+            - REDIS_INDEX=idx:movie
+        networks:
+            - redisearch-gettingstarted
+        restart: always
+        depends_on:
+            - redisearch
+
+    search-frontend:
+        build:
+            context: ./front-end
+            dockerfile: Dockerfile
+        ports:
+            - "8084:8084"
+        environment:
+            - VUE_APP_SEARCH_API_NODE=http://rest-node:8086
+        networks:
+            - redisearch-gettingstarted
+        restart: always
+        depends_on:
+            - redisearch
+            - rest-node
+
+networks:
+    redisearch-gettingstarted:
+        driver: bridge
