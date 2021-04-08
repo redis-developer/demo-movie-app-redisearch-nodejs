@@ -9,7 +9,7 @@
   "quick_deploy": "false",
   "deploy_buttons": [],
   "language": ["JavaScript"],
-  "redis_commands": ["FT.SEARCH", "SORTBY"],
+  "redis_commands": ["FT.SEARCH", "FT.INFO", "FT.CREATE", "SORTBY"],
   "redis_features": ["Search"],
   "redis_modules": ["RediSearch"],
   "app_image_urls": [
