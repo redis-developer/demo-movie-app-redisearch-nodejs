@@ -6,19 +6,12 @@
   "repo_url": "https://github.com/redis-developer/demo-movie-app-redisearch-nodejs",
   "download_url": "https://github.com/redis-developer/demo-movie-app-redisearch-nodejs/archive/main.zip",
   "hosted_url": "",
-  "quick_deploy": "true",
-  "deploy_buttons": [
-    {
-      "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/demo-movie-app-redisearch-nodejs"
-    },
-    {
-      "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/demo-movie-app-redisearch-nodejs"
-    }
-  ],
-  "language": ["nodejs"],
-  "redis_commands": ["INCR", "SET", "ZRANGEBYSCORE"],
-  "redis_features": ["Redisearch"],
-  "redis_modules": [],
+  "quick_deploy": "false",
+  "deploy_buttons": [],
+  "language": ["JavaScript"],
+  "redis_commands": ["FT.SEARCH", "SORTBY"],
+  "redis_features": ["Search"],
+  "redis_modules": ["RediSearch"],
   "app_image_urls": [
     "https://github.com/redis-developer/demo-movie-app-redisearch-nodejs/blob/master/img.png",
     "https://github.com/redis-developer/demo-movie-app-redisearch-nodejs/blob/master/basic_search.png",
@@ -27,5 +20,5 @@
   "youtube_url": "",
   "special_tags": [],
   "verticals": [],
-  "markdown": "https://raw.githubusercontent.com/redislabs-training/redis-sitesearch/master/README.md"
+  "markdown": "https://raw.githubusercontent.com/redis-developer/demo-movie-app-redisearch-nodejs/master/README.md"
 }
