@@ -641,13 +641,13 @@ To run the application:
 This Docker Compose will start:
 
 1. RediSearch instance on port 6380, and import all movies, actors and create indexes
-1. The Java REST Service available on port 8085
+1. The Node.js REST Service available on port 8086
 1. The frontend on port 8084
 
 Once started you can access the application and its services using the following URLs:
 
 - http://localhost:8084
-- http://localhost:8085/api/1.0/movies/search?q=star&offset=0&limit=10
+- http://localhost:8086/api/1.0/movies/search?q=star&offset=0&limit=10
 
 #### Stop and Delete Everything
 
