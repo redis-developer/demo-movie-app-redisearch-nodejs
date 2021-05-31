@@ -8,7 +8,7 @@ This application exposes various endpoint that are directly consumable in a fron
 
 ## How it works?
 
-![img.png](img.png)
+![img.png](https://github.com/redis-developer/demo-movie-app-redisearch-nodejs/blob/main/img.png)
 
 ### How the data is stored:
 
