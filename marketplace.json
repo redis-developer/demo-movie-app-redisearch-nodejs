@@ -1,6 +1,6 @@
 {
-  "app_name": "Demo Movie App Redisearch Node.js",
-  "description": "A movie demo app that shows redisearch capabilities",
+  "app_name": "A Movie Database Demo app using NodeJS and RediSearch",
+  "description": "A Movie Database Demo app in NodeJS based on Redisearch capabilities",
   "type": "App",
   "contributed_by": "Redis Labs",
   "repo_url": "https://github.com/redis-developer/demo-movie-app-redisearch-nodejs",
@@ -13,9 +13,9 @@
   "redis_features": ["Search"],
   "redis_modules": ["RediSearch"],
   "app_image_urls": [
-    "https://github.com/redis-developer/demo-movie-app-redisearch-nodejs/blob/master/img.png",
-    "https://github.com/redis-developer/demo-movie-app-redisearch-nodejs/blob/master/basic_search.png",
-    "https://github.com/redis-developer/demo-movie-app-redisearch-nodejs/blob/master/faceted_search.png"
+    "https://raw.githubusercontent.com/redis-developer/demo-movie-app-redisearch-nodejs/master/img.png",
+    "https://raw.githubusercontent.com/redis-developer/demo-movie-app-redisearch-nodejs/master/basic_search.png",
+    "https://raw.githubusercontent.com/redis-developer/demo-movie-app-redisearch-nodejs/master/faceted_search.png"
   ],
   "youtube_url": "",
   "special_tags": [],
