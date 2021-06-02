@@ -14,8 +14,6 @@
   "redis_modules": ["RediSearch"],
   "app_image_urls": [
     "https://raw.githubusercontent.com/redis-developer/demo-movie-app-redisearch-nodejs/master/img.png",
-    "https://raw.githubusercontent.com/redis-developer/demo-movie-app-redisearch-nodejs/master/basic_search.png",
-    "https://raw.githubusercontent.com/redis-developer/demo-movie-app-redisearch-nodejs/master/faceted_search.png"
   ],
   "youtube_url": "",
   "special_tags": [],
