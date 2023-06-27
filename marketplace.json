@@ -12,7 +12,7 @@
   "language": ["JavaScript"],
   "redis_commands": ["FT.SEARCH", "FT.INFO", "FT.CREATE", "SORTBY"],
   "redis_use_cases": ["Search"],
-  "redis_features": ["Search"],
+  "redis_features": ["Search and Query"],
   "app_image_urls": [
     "https://raw.githubusercontent.com/redis-developer/demo-movie-app-redisearch-nodejs/master/img.png"
   ],
