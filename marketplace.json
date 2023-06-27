@@ -1,6 +1,6 @@
 {
-  "app_name": "A Movie Database Demo app using NodeJS and RediSearch",
-  "description": "A Movie Database Demo app in NodeJS based on Redisearch capabilities",
+  "app_name": "A Movie Database Demo app using NodeJS and Redis Search",
+  "description": "A Movie Database Demo app in NodeJS based on Redis Search capabilities",
   "type": "Building Block",
   "contributed_by": "Redis Labs",
   "repo_url": "https://github.com/redis-developer/demo-movie-app-redisearch-nodejs",
@@ -11,8 +11,8 @@
   "deploy_buttons": [],
   "language": ["JavaScript"],
   "redis_commands": ["FT.SEARCH", "FT.INFO", "FT.CREATE", "SORTBY"],
+  "redis_use_cases": ["Search"],
   "redis_features": ["Search"],
-  "redis_modules": ["RediSearch"],
   "app_image_urls": [
     "https://raw.githubusercontent.com/redis-developer/demo-movie-app-redisearch-nodejs/master/img.png"
   ],
